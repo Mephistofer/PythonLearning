@@ -151,7 +151,6 @@ for key, value in user_0.items():
 # message = input("Tell me something, and I will repeat it back to you: ")
 # print(message)
 
-
 def greet_user():
     """显示简单的问候语"""
     print("Hello!")
