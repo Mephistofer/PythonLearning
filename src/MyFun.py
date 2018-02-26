@@ -28,5 +28,3 @@ class Dog():
 
     def roll_over(self):
         print(self.name.title() + " rolled over!")
-        
-    def 
