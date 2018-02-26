@@ -242,3 +242,4 @@ def make_pizza(*toppings):
 
 make_pizza('pepperoni')
 make_pizza('mushrooms', 'green peppers', 'extra cheese')
+make_pizza(1, '7', 3)
