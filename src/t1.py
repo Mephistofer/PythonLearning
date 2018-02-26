@@ -18,4 +18,4 @@ make_pizza(10, '3', '4')
 
 MyFun.make_pizza(11, '4', '8')
 
-MyFun.make_pizza(11, '4', '0')
+MyFun.make_pizza(11, '4', '1')
