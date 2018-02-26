@@ -5,8 +5,6 @@ Created on 2017年9月19日
 @author: Saya
 '''
 
-1
-
 
 def make_pizza(size, *toppings):
     print("\nMaking a " + str(size) +
