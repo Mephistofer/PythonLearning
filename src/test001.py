@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python 
 # -*- coding: utf-8 -*
 
 '''
@@ -6,36 +6,31 @@ Created on 2017年9月14日
 
 @author: Saya
 '''
-# for i in range(1,5):
+# for i in range(1,5):    
 #     for j in range(1,5):
 #         for k in range(1,5):
-#             if( i != k ) and (k != j) and (j != i):
-#                 #if i!=j!=k:
-#                     print (i,j,k)
+#             #if( i != k ) and (i != j) and (j != k):
+#              if i!=j!=k:
+#                 print (i,j,k)
 
-# d = []
-# for a in range(1, 5):
-#     for b in range(1, 5):
-#         for c in range(1, 5):
-#             if (a != b) and (a != c) and (c != b):
-#                 d.append((a, b, c))
-# print("总数量：", len(d), d)
+# d=[]
+# for a in range(1,5):
+#     for b in range(1,5):
+#         for c in range(1,5):
+#             if (a!=b) and (a!=c) and (c!=b):
+#                 d.append((a,b,c))
+# print ("总数量：", len(d), d)
 
-list_num = (1, 2, 3, 4)
-d = [
-    i * 100 + j * 10 + k
-    for i in list_num
-    for j in list_num
-    for k in list_num
-    if (i != j and j != k and k != i)
-]
-print("总数量：", len(d), d)
-
-a, b, c = 1, 5, 3
-c = [b, a][a > b]
-print(c)
-c = a if a > b else b
-print(c)
+# list_num = (1,2,3,4)
+# d = [    
+#         i*100 + j*10 + k     
+#         for i in list_num
+#             for j in list_num 
+#                 for k in list_num 
+#                     if (i != j and j != k and k!= i)
+#                                               
+#     ] 
+# print ("总数量：", len(d), d)
 
 # num=(1,2,3,4)
 # i=0
@@ -45,7 +40,7 @@ print(c)
 #             if (a!=b) and (b!=c) and (c!=a):
 #                 i+=1
 #                 print(a,b,c)
-# print("总数量：",i)
+# print("总数量：",i) 
 
 # line=[]
 # for i in range(123,433):
@@ -56,7 +51,7 @@ print(c)
 #         line.append(i)
 # print("总数量：",len(line), line)
 
-#from itertools import permutations
+#from itertools import permutations 
 # for i in permutations([1, 2, 3, 4], 3):
 #     print(i)
 # line=[]
@@ -81,10 +76,17 @@ print(c)
 # print(list_result)
 # pprint.pprint(list_result)
 
-# 从 00 01 10  到  11 10 10
-# for num in range(6,58):
-#     a = num >> 4 & 3
-#     b = num >> 2 & 3
-#     c = num & 3
-#     if( (a^b) and (b^c) and (c^a) ):
-#         print (a+1,b+1,c+1)
+#从 00 01 10  到  11 10 10
+for num in range(6,58):
+    a = num >> 4 & 3
+    b = num >> 2 & 3
+    c = num & 3
+    if( (a^b) and (b^c) and (c^a) ):
+        print (a+1,b+1,c+1)
+
+
+
+
+
+
+
