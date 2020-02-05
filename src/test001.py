@@ -51,7 +51,7 @@ Created on 2017年9月14日
 #         line.append(i)
 # print("总数量：",len(line), line)
 
-#from itertools import permutations 
+# from itertools import permutations 
 # for i in permutations([1, 2, 3, 4], 3):
 #     print(i)
 # line=[]
@@ -75,18 +75,12 @@ Created on 2017年9月14日
 # print("能组成%d个互不相同且无重复数字的三位数: "%len(list_result))
 # print(list_result)
 # pprint.pprint(list_result)
-
-#从 00 01 10  到  11 10 10
-for num in range(6,58):
+# just test
+# 从 00 01 10  到  11 10 10
+for num in range(6, 58):
     a = num >> 4 & 3
     b = num >> 2 & 3
     c = num & 3
-    if( (a^b) and (b^c) and (c^a) ):
-        print (a+1,b+1,c+1)
-
-
-
-
-
-
+    if((a ^ b) and (b ^ c) and (c ^ a)):
+        print (a + 1, b + 1, c + 1)
 
